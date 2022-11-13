@@ -90,10 +90,11 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="overlay" v-if="displayCommandPrompt" @click="hide">
+<dialog open>
+  <!-- <div class="overlay yo" v-if="displayCommandPrompt" @click="hide"> -->
     <div class="command-prompt-root">
       <div class="command-prompt" @click.stop>
-        <div :class="{ prompt: true, 'has-results': !!results.length }">
+        <div :class="{ prompt: true, 'has-results': !!results.length, [$style.test]: true }">
           <input
             type="text"
             ref="input"
@@ -113,8 +114,16 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
+	</dialog>
 </template>
+
+<style module>
+.test {
+	color: red;
+	background-color: red;
+}
+</style>
 
 <style scoped>
 *::before,
