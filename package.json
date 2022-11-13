@@ -11,7 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/webextension-polyfill": "^0.9.1",
-    "@vitejs/plugin-vue": "^3.1.0",
+    "@vitejs/plugin-vue": "^3.2.0",
     "@vue/test-utils": "^2.1.0",
     "cross-env": "^7.0.3",
     "jsdom": "^20.0.1",
@@ -22,6 +22,9 @@
     "vite-plugin-web-extension": "^1.4.4",
     "vitest": "^0.23.4",
     "vue": "^3.2.40",
-    "webextension-polyfill": "^0.10.0"
+    "webextension-polyfill": "^0.10.0",
+    "vue-loader": "^17.0.1"
+  },
+  "dependencies": {
   }
 }

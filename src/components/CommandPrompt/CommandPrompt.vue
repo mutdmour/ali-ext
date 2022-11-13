@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref, computed, onMounted, onUnmounted, Ref } from 'vue'
-import actions from '../actions';
-import type { Result } from '../../Interface';
+import actions from '../../actions';
+import type { Result } from '../../../Interface';
 
 const displayCommandPrompt = ref(false)
 const input: Ref<HTMLInputElement | null> = ref(null);
