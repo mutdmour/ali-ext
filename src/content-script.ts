@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
 import CommandPrompt from './components/CommandPrompt.vue';
 
-const rootClassName = 'albert-ext-root';
+const rootClassName = 'ali-root-ext';
 
 function init() {
 	const root = document.createElement('div');
@@ -17,5 +17,5 @@ function init() {
 try {
 	init();
 } catch (e) {
-	console.error(`albert-ext`, e);
+	console.error(`ali-ext`, e);
 }
