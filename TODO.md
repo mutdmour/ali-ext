@@ -1,4 +1,3 @@
-[] Add husky + conventional commits
 [] Add web extension file support
 [] Add scss support
 [] Add css modules support
