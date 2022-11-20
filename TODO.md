@@ -1,4 +1,3 @@
-[] Add command prompt component as webcomponent
 [] Add husky + conventional commits
 [] Add web extension file support
 [] Add scss support
