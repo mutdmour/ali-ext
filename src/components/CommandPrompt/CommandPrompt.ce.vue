@@ -128,7 +128,7 @@ onUnmounted(() => {
 </style> -->
 
 <style>
-:root {
+:host {
   --ae-white: #ffffff;
   --ae-white-soft: #f8f8f8;
   --ae-white-mute: #f2f2f2;
@@ -153,7 +153,7 @@ onUnmounted(() => {
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :host {
     --ae-color-background: var(--ae-black);
     --ae-color-background-soft: var(--ae-black-soft);
     --ae-color-background-mute: var(--ae-black-mute);
