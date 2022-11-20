@@ -13,9 +13,6 @@
   "background": {
     "service_worker": "background.ts"
   },
-  "action": {
-    "default_popup": "popup/index.html"
-  },
   "options_ui": {
     "page": "options/index.html"
   },
